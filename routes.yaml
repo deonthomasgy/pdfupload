@@ -1,0 +1,18 @@
+routes:
+  /:
+      uses: index
+      as: pdfupload.index
+  get@getAll: getAll
+  post@save: save
+  update:
+    uses: updateAsset
+    as: pdfupload.updateAsset
+  edit: 
+    uses: getEdit
+    as: pdfupload.getEdit
+  render:
+    uses: imageLoad
+    as: pdfupload.imageLoad
+  rename:
+      uses: getAll
+      as: pdfupload.getAll

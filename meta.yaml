@@ -1,0 +1,6 @@
+name: PdfUpload
+version: "1.0"
+description: uploads PDF files and updates assets folder
+url: deonthomas.com
+developer: Deon Thomas
+developer_url: www.deonthomas.com

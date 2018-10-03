@@ -1,0 +1,6 @@
+{
+    "name": "deonthomasgy/pdfupload",
+    "require": {
+        "spatie/pdf-to-image": "1.4.0"
+    }
+}
